@@ -1,0 +1,25 @@
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: #412727;
+    font-size: 0px;
+}
+.block {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: #FFD23F;
+    border: 10px outset #dbbe5e;
+}
+.purple {
+    background-color: #9107e0;
+    border: 10px outset #7f21b6;
+}
+.coral {
+    background-color: #F26157;
+    border: 10px outset #d65950;
+}
+.blue {
+    background-color: #99B2DD;
+    border: 10px outset #b3c9ee;
+}

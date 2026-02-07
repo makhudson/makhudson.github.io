@@ -1,0 +1,60 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color: lightblue;
+    width: 210px;
+    min-height: 210px;
+    padding: 24px;
+    margin: 24px;
+    vertical-align: top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    position: relative;
+    box-shadow: 6px 6px 12px #242323c5;
+}
+.pink {
+    background-color: pink;
+    font-style: italic;
+    padding: 0px;
+    text-align: center;
+}
+.yellow {
+    background-color: lightyellow;
+    height: 210px;
+    width: 210px;
+    padding: 10px;
+    margin: 0px;
+}
+.blue {
+    background-color: lightblue;
+    height: 210;
+    width: 210;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+#b-img {
+    height: 170px;
+    text-align: center;
+}
+#y-img {
+    height: 80px;
+    text-align: center;
+}
+.post-it .pin {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 80px;
+}
+.post-it .pin {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 80px;
+}

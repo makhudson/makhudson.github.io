@@ -5,13 +5,23 @@
     min-height: 100vh;
     padding: 24px;
 }
+h4 {
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: white;
+    margin: 0px;
+    padding: 3px
+}
 #sidebar .chapter {
     font-size: 24px;
     font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
 }
 #sidebar .edit {
     color: orange;
     font-style: italic;
+    padding: 10px;
 }
 #sidebar .chapter.edit {
     color: red;

@@ -1,0 +1,42 @@
+p {
+    padding: 20px;
+    font-size: 20px
+}
+#p1 {
+    color: aquamarine;
+    background-color: grey;
+}
+#p1-s1 {
+    color: blueviolet;
+    background-color: #0dc90d;
+}
+#p1-s2 {
+    color: blueviolet;
+    background-color: #f598b7;
+}
+/* Paragraph 2 */
+#p2 {
+    color: wheat;
+    background-color: #5e3815;
+}
+#p2-s1 {
+    color: #0dc90d;
+    background-color: #dada85;
+}
+#p2-s2 {
+    color: yellow;
+    background-color: rgb(106, 114, 82);
+}
+/* Paragraph 3 */
+#p3 {
+    color: #f598b7;
+    background-color: palegoldenrod;
+}
+#p3-s1 {
+    color: #acacf1;
+    background-color: rgb(180, 148, 109);
+}
+#p3-s2 {
+    color: #72bcee;
+    background-color: rgb(65, 119, 74);
+}

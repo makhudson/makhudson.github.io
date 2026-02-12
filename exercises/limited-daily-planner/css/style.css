@@ -1,0 +1,74 @@
+#morning .button {
+    display: inline-block;
+    background-color: greenyellow;
+    text-decoration: none;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 20px;
+    border: 1px solid green;
+}
+#morning {
+    background-color: #d1d188;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 15px;
+    border: 2px solid #94944d;
+}
+#morning ul {
+    background-color: #f5f5c3;
+    border-radius: 15px;
+}
+#morning li {
+    margin: 5px;
+}
+#morning .completed {
+    text-decoration: line-through;
+    display: inline-block;
+}
+#morning .important {
+    color: #bd0909;
+    font-weight: bold;
+}
+#morning .completed.important {
+    background-color: #b4983c;
+    padding: 2px;
+    display: inline-block;
+}
+
+#afternoon {
+    background-color: #4688eb;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 15px;
+    border: 2px solid #2659b8;
+}
+#afternoon ul {
+    background-color: #6dbfe6;
+    border-radius: 15px;
+}
+#afternoon li {
+    margin: 5px;
+}
+#afternoon .important {
+    color: #bd0909;
+    font-weight: bold;
+}
+
+#evening {
+    background-color: #8913c0;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 15px;
+    border: 2px solid #461555;
+}
+#evening ul {
+    background-color: #a471b1;
+    border-radius: 15px;
+}
+#evening li {
+    margin: 5px;
+}
+#evening .important {
+    color: #bd0909;
+    font-weight: bold;
+}

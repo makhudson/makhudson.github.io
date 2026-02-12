@@ -23,7 +23,6 @@
 }
 #morning .completed {
     text-decoration: line-through;
-    display: inline-block;
 }
 #morning .important {
     color: #bd0909;
@@ -32,7 +31,6 @@
 #morning .completed.important {
     background-color: #b4983c;
     padding: 2px;
-    display: inline-block;
 }
 
 #afternoon {

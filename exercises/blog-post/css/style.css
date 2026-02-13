@@ -3,7 +3,7 @@
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 img {
     width: 670px;
@@ -23,9 +23,16 @@ img {
 }
 h1 {
     color: #ce7807;
+    background-color: #3a5018;
+    border-radius: 15px;
+    box-shadow: 6px -5px #0f1603;
+    padding: 7px;
 }
 h3 {
-    color: #b60a0a;
+    color: #fdd210;
+    border: 3px solid #0f1603;
+    background-color: #608a21;
+    padding: 3px;
 }
 .sn {
     color: darkgreen;

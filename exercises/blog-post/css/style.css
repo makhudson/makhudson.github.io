@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 670px;
+    object-fit: cover;
+}
+.single-column {
+    width: 80%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+.light-container {
+    background-color: lightyellow;
+    padding: 48px 0px;
+}
+.single-column a #sf img {
+    width: 300px;
+}
+h1 {
+    color: #ce7807;
+}
+h3 {
+    color: #b60a0a;
+}
+.sn {
+    color: darkgreen;
+    font-weight: 550;
+}
+p {
+    margin: 28px 80px 40px 0px;
+}

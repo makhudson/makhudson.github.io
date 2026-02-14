@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Mystery+Quest&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Crafty Girls", cursive;
 }
 img {
     width: 670px;
@@ -27,16 +28,18 @@ h1 {
     border-radius: 15px;
     box-shadow: 6px -5px #0f1603;
     padding: 7px;
+    font-family: "Mystery Quest", system-ui;
 }
-h3 {
+h2 {
     color: #fdd210;
     border: 3px solid #0f1603;
     background-color: #608a21;
     padding: 3px;
+    font-family: "Mystery Quest", system-ui;
 }
 .sn {
     color: darkgreen;
-    font-weight: 550;
+    font-weight: 600;
 }
 p {
     margin: 28px 80px 40px 0px;

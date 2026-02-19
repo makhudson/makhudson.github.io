@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    margin: 0px auto;
+    width: 90%;
+    max-width: 400px;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.sbs {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.sbs .content-container h1 {
+    text-align: left;
+}
+.sbs img {
+    height: 100%;
+}
+.single-column h1 {
+    text-align: center;
+}
+.sbs .content-container .l1 {
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+}
+.card-container {
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.card {
+    padding: 0px;
+    text-align: center;
+    margin: 10px;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Mystery+Quest&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Crafty Girls", cursive;
+    background-color: lightyellow;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Resets Above */
+
+.single-column {
+    width: 90%;
+    max-width: 1280px;
+    margin: 25px auto;
+}
+.two-columns {
+    display: flex;
+    gap: 50px;
+}
+
+.sidebar {
+    order: 2;
+    width: 250px;
+}
+.sidebar h2 {
+    background-color: #3a5018;
+    margin: 0px;
+    padding: 15px;
+    font-size: 25px;
+    color: #ce7807;
+}
+.sidebar ul {
+    background-color: #608a21;
+    border: 1px solid #3a5018;
+    margin: 0px 0px 25px;
+    list-style-type: none;
+    padding: 0px 15px;
+}
+.sidebar li {
+    padding: 10px 0px;
+    border-bottom: 1px solid #3a5018;
+}
+.sidebar li:last-child {
+    border: 0px;
+}
+.sidebar a {
+    text-decoration: none;
+    color: #fdd210;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.main {
+    order: 1;
+    flex: 1;
+    max-width: 650px;
+}
+p {
+    margin: 28px 80px 40px 0px;
+    letter-spacing: 1px;
+}
+h1 {
+    color: #ce7807;
+    background-color: #3a5018;
+    border-radius: 15px;
+    box-shadow: 6px -5px #0f1603;
+    padding: 7px;
+    font-family: "Mystery Quest", system-ui;
+    letter-spacing: 3px;
+}
+.main h2 {
+    color: #fdd210;
+    border: 3px solid #0f1603;
+    background-color: #608a21;
+    padding: 3px;
+    font-family: "Mystery Quest", system-ui;
+    letter-spacing: 3px;
+}
+.sn {
+    color: darkgreen;
+    font-weight: 600;
+}

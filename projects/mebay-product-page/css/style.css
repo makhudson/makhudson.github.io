@@ -60,11 +60,11 @@ img {
     border-bottom: 1px solid lightgray;
     padding: 14px;
 }
+.line #seller-info {
+    font-size: small;
+}
 .line-1 {
     border-bottom: 1px solid lightgray;
-}
-.buttons {
-    display: block;
 }
 #bn {
     background-color: #0968f6;
@@ -73,6 +73,7 @@ img {
     border-radius: 50px;
     margin: 7px;
     text-align: center;
+    text-decoration: none;
 }
 .buttons .wb {
     display: block;
@@ -83,4 +84,5 @@ img {
     border-radius: 50px;
     margin: 7px;
     text-align: center;
+    text-decoration: none;
 }

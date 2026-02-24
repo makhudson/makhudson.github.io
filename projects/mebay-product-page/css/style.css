@@ -31,13 +31,17 @@ img {
 #seller-info a {
     color: black;
 }
+#featured-image-column {
+    flex: 2;
+}
 #featured-image-column img {
     border-radius: 30px;
-    flex: 2;
+}
+#thumbnail-column {
+    width: 300px auto;
 }
 #thumbnail-column img {
     border-radius: 10px;
-    width: 300px auto;
 }
 .image-container img {
     height: 100%;
@@ -64,16 +68,18 @@ img {
 #bn {
     background-color: #0968f6;
     color: white;
-    padding: 13px 150px;
+    padding: 13px 30px;
     border-radius: 50px;
     margin: 7px;
     text-align: center;
 }
+.buttons .wb {
+    display: inline-block;
+}
 .wb {
     border: 1px solid #0968f6;
-    padding: 13px 150px;
+    padding: 13px 30px;
     border-radius: 50px;
     margin: 7px;
     text-align: center;
-    display: block;
 }

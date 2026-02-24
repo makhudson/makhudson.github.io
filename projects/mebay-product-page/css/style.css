@@ -36,9 +36,10 @@ img {
 }
 #featured-image-column img {
     border-radius: 30px;
+    height: 100%;
 }
 #thumbnail-column {
-    width: 300px auto;
+    width: 200px auto;
 }
 #thumbnail-column img {
     border-radius: 10px;
@@ -68,17 +69,17 @@ img {
 #bn {
     background-color: #0968f6;
     color: white;
-    padding: 13px 30px;
+    padding: 13px 20px;
     border-radius: 50px;
     margin: 7px;
     text-align: center;
 }
 .buttons .wb {
-    display: inline-block;
+    display: block;
 }
 .wb {
     border: 1px solid #0968f6;
-    padding: 13px 30px;
+    padding: 13px 20px;
     border-radius: 50px;
     margin: 7px;
     text-align: center;

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Trade+Winds&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Trade Winds", system-ui;
+
+    background-color: #6ba4a8;
+}
+img {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+}
+/* Resets Above */
+.single-column {
+    width: 90%;
+    max-width: 900px;
+    margin: 25px auto;
+    text-align: center;
+}
+#title {
+    background-color: #04215f;
+    color: red;
+    padding: 10px 10px 0px;
+    font-family: "Knewave", system-ui;
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-size: 60px;
+}
+#ep {
+    background-color: #04215f;
+    color: white;
+    margin-top: 0px;
+    padding-bottom: 18px;
+    font-family: "Knewave", system-ui;
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+#jj {
+    font-size: 18px;
+}
+h1 {
+    font-size: 50px;
+}
+h4 {
+    font-size: 25px;
+}
+.tvt {
+    display: flex;
+    justify-content: center;
+    margin: 50px 8px;
+}
+#vs {
+    padding: 50px;
+}
+#t1 {
+    border: 5px solid red;
+    background-color: #04215f;
+    color: white;
+    padding: 20px 10px 0px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#t2 {
+    border: 5px solid #b68a1a;
+    background-color: #04215f;
+    color: white;
+    padding: 20px 10px 0px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#what {
+    font-size: 25px;
+    margin: 0px 170px;
+}
+#things {
+    font-weight: 900px;
+}
+#where {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+#add {
+    font-style: italic;
+}
+.rsvp {
+    padding: 10px 20px;
+    margin: 0px 20px;
+    color: white;
+    background-color: #04215f;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+}
+.rsvp:hover {
+    background-color: transparent;
+    color: #04215f;
+    border: 1px solid #04215f;
+}
+#q {
+    margin-top: 40px;
+}

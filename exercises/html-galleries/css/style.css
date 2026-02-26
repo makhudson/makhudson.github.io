@@ -20,9 +20,10 @@ body {
     width: max-content;
     display: block;
     margin: 0px auto;
-    background-color: #031b50;
+    background-color: #031b5091;
+    padding: 3px 30px;
 }
-a {
+#wp a {
     text-decoration: none;
     color: #79f07f;
     font-size: 20px;

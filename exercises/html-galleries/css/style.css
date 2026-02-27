@@ -16,12 +16,11 @@ body {
 }
 #hero-4 .hero-content {
     color: #79f07f;
-    padding: 20px;
     width: max-content;
     display: block;
     margin: 0px auto;
     background-color: #031b5091;
-    padding: 3px 30px;
+    padding: 10px 30px;
 }
 #wp a {
     text-decoration: none;

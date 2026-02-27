@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Resets Above */
+.single-column {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+#centered-hero {
+    background-image: url("../images/ch.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.land-gal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid #ffa600;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+.land-gal img {
+    height: 100%;
+    border: 3px solid orange;
+}

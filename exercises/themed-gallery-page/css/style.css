@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Kaushan+Script&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Kaushan Script", cursive;
 }
 img {
     width: 100%;
@@ -19,10 +20,13 @@ img {
     background-image: url("../images/ch.jpg");
     background-size: cover;
     background-position: center center;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: "Arizonia", cursive;
 }
 .land-gal {
     display: grid;
@@ -30,10 +34,15 @@ img {
     border: 2px solid #ffa600;
 }
 h1 {
-    text-align: center;
-    padding-top: 50px;
+    padding: 0px;
+    margin: 0px;
 }
 .land-gal img {
     height: 100%;
     border: 3px solid orange;
+}
+.land-gal div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

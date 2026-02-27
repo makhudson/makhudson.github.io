@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: "Kaushan Script", cursive;
+    background-color: #bcf5e2;
 }
 img {
     width: 100%;
@@ -32,8 +33,9 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 2px solid #ffa600;
+    margin-bottom: 30px;
 }
-h1 {
+.content h1 {
     padding: 0px;
     margin: 0px;
 }
@@ -45,4 +47,5 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(196, 196, 173);
 }

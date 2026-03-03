@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Resets Above */
+.single-column {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+header {
+    background-color: #222222;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+}
+#centered-hero {
+    background-image: url("../images/bwhero.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.content h1 {
+    font-size: 72px;
+    margin: 0px 25px 45px;
+    color: #02b5e2;
+    background-color: #53515198;
+    padding: 3px 14px;
+}
+.content a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #02b5e2;
+    background-color: #535151;
+    padding: 7px 10px;
+    border: 2px solid #02b5e2;
+}
+.cropped-gal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 25px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.cropped-gal img {
+    height: 100%;
+}
+.card-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.card {
+    border: 5px solid #535151;
+    padding: 12px;
+    text-align: center;
+}
+.card a {
+    text-decoration: none;
+    color: #02b5e2;
+    background-color: #535151;
+    padding: 5px 10px;
+    border: 1px solid #02b5e2;
+}
+@media screen and (max-width: 900px) and (min-width: 730px) {
+    .cropped-gal {
+        grid-template-columns: 1fr 1fr;
+    }
+    #centered-hero {
+        height: 18vh;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+    .content a {
+        font-size: 12px;
+        padding: 7px 10px;
+    }
+}
+
+@media screen and (max-width: 729px) {
+    header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav a {
+        color: white;
+        font-size: 12px;
+        text-decoration: none;
+        padding: 7px 15px;
+    }
+    #centered-hero {
+        height: 25vh;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+    .content a {
+        font-size: 12px;
+        padding: 7px 10px;
+    }
+    .cropped-gal {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 175px;
+    }
+    .card-container {
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+}

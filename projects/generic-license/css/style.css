@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+#license {
+    width: 700px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 24px;
+    background: linear-gradient(to bottom right, orange, #c74f23);
+}
+h1 {
+    color: blue;
+    font-size: 45px;
+    margin: 0px;
+}
+#id-and-expiration div, 
+span  h4 {
+    display: inline-block;
+    padding: 0px 10px;
+    margin-bottom: 45px;
+}
+#small-pic-container {
+    display: inline-block;
+}
+#data-fields {
+    display: inline-block;
+    color: blue;
+}
+#data-fields span {
+    color: red;
+}
+#small-pic-container img {
+    width: 100%;
+}
+/* left side */
+#left-side {
+    display: inline-block;
+    width: 65%;
+}
+#id-and-expiration div {
+    color: black;
+}
+#id-and-expiration span {
+    color: red;
+}
+h4 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+}
+#address {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#data-left, 
+#data-right {
+    display: inline-block;
+    padding-right: 8px;
+    padding-left: 0px;
+}
+#signature {
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Luxurious Script", cursive;
+}
+/* right side */
+#right-side {
+    display: inline-block;
+    width: 34%;
+}
+#right-side img {
+    width: 100%;
+}
+#donor, 
+#real-id {
+    display: inline-block;
+    color: red;
+}
+#real-id {
+    color: yellow;
+    padding: 10px;
+}

@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+    background-color: #e7f6fa;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Resets Above */
+.single-column {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+#hero-4 {
+    background-image: url("../images/hp.jpg");
+    height: 65vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-start;
+}
+#hero-4 .hero-content {
+    color: #79f07f;
+    width: max-content;
+    display: block;
+    margin: 0px auto;
+    background-color: #031b5091;
+    padding: 10px 30px;
+}
+#wp a {
+    text-decoration: none;
+    color: #79f07f;
+    font-size: 20px;
+    padding: 1px;
+}
+#opener {
+    margin: 20px;
+}
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+ul {
+    padding-left: 30px;
+}
+li {
+    padding: 3px;
+}
+/* Cats */
+#tgp {
+    background-color: #0a7979;
+    padding: 5px 25px 25px;
+}
+#tgp a {
+    text-decoration: none;
+    color: #1dc725;
+    font-size: 20px;
+    padding: 1px;
+}
+.basic-gal.two {
+    grid-template-columns: 1fr 1fr;
+}
+/* Dogs/Torts */
+h1 {
+    background-color: #0a7979;
+    padding-top: 6px;
+    padding-left: 35px;
+}
+#wgp {
+    background-color: #0a7979;
+    padding: 5px 25px 25px;
+}
+#wgp a {
+    text-decoration: none;
+    color: #1dc725;
+    font-size: 20px;
+    padding: 1px;
+}
+.basic-gal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 15px;
+    border: 2px groove rgb(0, 0, 0);
+    background-color: #d8f3f7;
+}
+.basic-gal img {
+    height: 100%;
+}

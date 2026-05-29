@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 50%;
+}
+/* Resets Above */
+.single-column {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0px auto;
+}

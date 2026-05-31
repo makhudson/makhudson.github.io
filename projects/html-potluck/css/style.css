@@ -7,10 +7,38 @@ body {
 }
 img {
     width: 50%;
+    margin-left: 170px;
 }
 /* Resets Above */
 .single-column {
     width: 90%;
     max-width: 1280px;
     margin: 0px auto;
+}
+a {
+    color: #f8e218;
+}
+body {
+    background-color: brown;
+}
+hr {
+    color: #f8e218;
+}
+.single-column h2 {
+    color: #f5bc00;
+}
+.single-column hr {
+    color: #f8b219f1;
+}
+.tabs {
+    margin-right: 20pt;
+}
+.time {
+    margin-right: 20pt;
+}
+a {
+    text-decoration: none;
+}
+body {
+    color: #bdb996;
 }

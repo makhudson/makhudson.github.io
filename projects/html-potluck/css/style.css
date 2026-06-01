@@ -34,11 +34,20 @@ hr {
     margin-right: 20pt;
 }
 .time {
-    margin-right: 20pt;
+    margin-left: 20pt;
 }
 a {
     text-decoration: none;
 }
 body {
     color: #bdb996;
+}
+.credit {
+    margin-left: 260px;
+}
+.creditm {
+    margin-left: 290px;
+}
+.creditb {
+    margin-left: 250px;
 }

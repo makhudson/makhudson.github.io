@@ -42,9 +42,15 @@ img {
 #opener {
     margin-top: 1px;
 }
+.ot {
+    margin: 0 auto;
+    width: 600px;
+    align-items: center;
+}
 p {
     font-size: 20px;
     padding: 10px;
+    text-align: center;
 }
 ul {
     padding-left: 30px;

@@ -60,19 +60,7 @@ body {
     color: #bdb996;
 }
 .credit {
-    margin-left: 290px;
-}
-.creditm {
-    margin-left: 310px;
-}
-.creditc {
-    margin-left: 305px;
-}
-.creditb {
-    margin-left: 280px;
-}
-.creditr {
-    margin-left: 275px;
+    text-align: center;
 }
 .title {
     text-align: center;
